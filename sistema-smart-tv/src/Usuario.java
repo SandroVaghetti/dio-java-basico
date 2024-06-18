@@ -1,5 +1,10 @@
 public class Usuario {
     public static void main(String[] args) throws Exception {
+
+        int numero1 = 1;
+        String numero2 = "2";
+        System.out.println(numero1 + numero2);
+
         SmartTv smartTv = new SmartTv();
         smartTv.diminuirVolume();
         smartTv.diminuirVolume();
@@ -28,5 +33,6 @@ public class Usuario {
 
         smartTv.diminuirCanal();
         System.out.println("Novo Status -> Canal atual: " + smartTv.canal);
+
     }
 }
